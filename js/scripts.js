@@ -7,17 +7,28 @@ $(function () {
     var words = [$('#inputWord').val()];
     var vowels = ['a', 'e', 'i' , 'o', 'u', 'y'];
 
-    for (i=0, x=0; i <= vowels.length; i++) {
-      if ($(vowels).toString([i]) === $(words).toString([x])) {
-        pigLatin = word + 'ay';
-      }
-    }
-
-
-
-
-
-
+//
+// var firstLetter = words.slice(0, 1);
+//
+// // for (i=0; i <= vowels.length; i++) {
+// //   if (firstLetter == vowels[i]) {
+// //     pigLatin = word + 'ay';
+// //   }
+// // }
+// vowels.forEach(function(vowel){
+//   if (vowel == firstLetter){
+//     pigLatin = word + 'ay';
+//     alert(pigLatin)
+//   }
+// })
+//
+//
+//
+// for (i=0; i <= vowels.length; i++) {
+//   if ($(vowel[i]).inArray(firstLetter)) {
+//     pigLatin = word + 'ay';
+//   }
+// }
 
 
 
